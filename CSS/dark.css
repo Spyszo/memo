@@ -1,0 +1,97 @@
+
+body{
+	font-family: "Arial";
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	background-color: #212121;
+}
+
+nav h1 {
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin: 0;
+	margin-bottom: 50px;
+}
+.all {
+	margin: auto;
+}
+.pojemnik_plansza{
+	width: 560px;
+	height: 700px;
+	background-color: #303030;
+	margin: auto;
+	box-shadow:0 12px 12px rgba(0,0,0,0.23);
+	border-radius: 10px;
+}
+#plansza{
+	width: 560px;
+	height: 450px;
+	clear: both;
+	margin:0 auto;
+}
+
+.kafelek{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	float: left;
+	font-size: 60px;
+	text-align: center;
+	line-height: 100px;
+	opacity:0.8;
+}
+#czas{
+
+}
+button{
+
+}
+.kafelek_js {
+	background-color: #4dd599 !important;
+	color: white;
+	transition: opacity 1s linear !important;
+	transition-delay: 1s !important;
+	opacity: 0 !important;
+}
+
+#countdown {
+	width: 190px;
+	height: 20px;
+	color: white;
+	background-color: #B63F6B;
+	border-radius: 5px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+button {
+	margin-top: 10px;
+	width: 210px;
+	border: none;
+	height: 40px;
+	color: white;
+	background-color: #B63F6B;
+	border-radius: 5px;
+	margin-left: 10px;
+	text-align: center;
+
+}
+button:focus{
+	outline: none;
+}
+button:hover {
+	opacity: 0.8;
+}
+.plansza_koniec {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 450px;
+}

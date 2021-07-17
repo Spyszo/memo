@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src="JS/scripts.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="all" id="gra">
+	<nav>
+		<h1>GRA MEMO</h1>
+	</nav>
+	<div class="poziom_trudnosci">
+		<div class="poziom" style="float: left; box-shadow:inset 0px 0px 0px 2px #ffffff;" id="easy" onclick="poziom_trudnosci(1)">Łatwy</div>
+		<div class="poziom" style="float: right" id="hard" onclick="poziom_trudnosci(2)">Trudny</div>
+		<div style="clear: both"></div>
+	</div>
+	<button style="margin: auto; display: block" onclick="start()">START</button>
+</div>
+<footer><p>&copy Szymon Wesołowski</p></footer>
+
+<audio id="click">
+	<source src="click.wav" type="">
+</audio>
+
+<audio id="good">
+	<source src="good.wav" type="">
+</audio>
+
+<audio id="win">
+	<source src="win.mp3" type="">
+</audio>
+
+<audio id="lose">
+	<source src="lose.wav" type="">
+</audio>
+
+</body>
+</html>
